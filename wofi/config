@@ -1,0 +1,16 @@
+style=style.css
+
+no-actions
+show=drun
+
+width=45%
+height=40%
+location=center
+anchor=center
+
+# Impostazioni UI
+prompt=Select:
+allow_images=true
+hide_scroll=true
+show-actions=false
+drun-show-actions=false

@@ -1,0 +1,53 @@
+/*
+ * White: #dddddd
+ * Gray: #888888
+ * Red: #dc143c
+ */
+
+* {
+	font-family: "JetBrainsMonoNerdFont";
+	font-size: 14px;
+	min-height: 0;
+	min-width: 0;
+}
+
+window {
+	background-color: #000000;
+	border: 1px solid #dddddd;
+	border-radius: 3px; 
+}
+
+#input {
+	color: #dddddd;
+	background-color: #000000;
+	padding: 5px 0.6em;
+	margin: 5px;
+	border-radius: 3px;
+	border: 1px solid #888888;/* Style for 'inactive' or 'hover' */
+}
+
+#input:focus {
+	border: 1px solid #dddddd; /* Style for 'focused' when typing */ 
+}
+
+#inner-box {
+	margin: 0 5px 5px 5px; /* Adding a little space between entries */
+}
+
+#entry {
+	color: #888888; 
+	padding: 5px 0.6em;
+	margin: 2px 0;
+	border-radius: 3px;
+	border: 1px solid transparent;/* Maintains alignment with :selected */
+}
+
+#entry:selected {
+	color: #dddddd;
+	border: 1px solid #dddddd;
+	background-color: rgba(221, 221, 221, 0.05);
+}
+
+#entry image {
+	margin-right: 5px; /* Adding a little space between icon and text */
+}

@@ -1,0 +1,70 @@
+/* White: #dddddd */
+/* Gray: #888888 */
+/* Red: #dc143c */
+
+* {
+    min-height: 0;
+	min-width: 0;
+	font-family:"JetBrainsMonoNerdFont";
+	font-size: 14px;
+}
+
+window#waybar {
+	color: #dddddd;
+	background-color: #000000;
+}
+
+#workspaces button {
+	color: #888888;
+	padding: .1em .6em;
+	margin: 2px;
+    border-radius: 3px;
+}
+
+#workspaces button:hover {
+	box-shadow: inherit;
+	text-shadow: inherit;
+	background: inherit;
+	border: 1px solid #888888;  
+}
+
+#workspaces button.active {
+	color: #dddddd;
+	border: 1px solid #dddddd;
+}
+
+#workspaces button.urgent {
+  	color: #dc143c;
+	border-color: #dc143c;
+}
+
+#mpris,
+#language,
+#wireplumber,
+#battery,
+#tray,
+#clock,
+#custom-power {
+    padding: 5px 0.6em;
+    margin: 2px;
+    border-radius: 3px;
+	border: 1px solid #dddddd;
+}
+
+#mpris.paused, 
+#wireplumber.muted {
+    color: #888888;
+	border-color: #888888;
+}
+
+tooltip,
+menu {
+	background-color: #000000;
+	border: 1px solid #dddddd;
+}
+
+menu:selected {
+    color: #dddddd;
+	border: 1px solid #dddddd;
+	background-color: rgba(221, 221, 221, 0.05);
+}

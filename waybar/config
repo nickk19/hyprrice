@@ -1,0 +1,89 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 36,
+
+    "modules-left": [
+        "hyprland/workspaces",
+    ],
+    "modules-center": [
+        "hyprland/window",
+    ],
+    "modules-right": [
+        "mpris",
+        "hyprland/language",
+        "wireplumber",
+		"battery",
+        "tray",
+        "clock",
+		"custom/power",
+    ],
+
+    "hyprland/window": {
+        "format": "{initialTitle}",
+	    "swap-icon-label": false,
+    },
+
+    "mpris": {
+	    "ignored-players": ["firefox", "vlc"],
+    	"dynamic-order": ["artist", "title"],
+	    "format": "{dynamic}",
+	    "format-paused": "<i>{dynamic}</i>",
+    },
+
+    "hyprland/language": {
+        "format": "{short}",
+    },
+
+    "wireplumber": {
+	    "format": "VOL: {volume}%",
+        "format-muted": "<i>VOL: MUTE</i>",
+	    "on-click": "pavucontrol",
+	    "on-click-middle": "wpctl set-mute @DEFAULT_SINK@ toggle",
+	    "smooth-scrolling-threshold": 0.5,
+        "scroll-step": 5,
+    },
+
+    "battery": {
+        "interval": 2,
+        "states": {
+            "warning": 30,
+            "critical": 20,
+        },
+	    "format": "BAT: {capacity}%",
+	    "format-charging": "BAT: {capacity}% (+)",
+        "tooltip-format": "{power}W (Health: {health}%)",
+    },
+
+    "tray": {
+    	"show-passive-items": true,
+        "icon-size": 18,
+        "spacing": 10,
+    },
+
+    "clock": {
+        "tooltip": true,
+        "tooltip-format": "<span>{calendar}</span>",
+        "calendar": {
+            "mode": "month",
+            "format": {
+                "months": "<span color='#dc143c'><b>{}</b></span>",
+                "today": "<span color='#dc143c'><b>{}</b></span>",
+            },
+        },
+    },
+
+    "custom/power": {
+    	"exec": "whoami",
+        "format": "<i>{}</i>",
+        "tooltip-format": "Power menu",
+	    "menu": "on-click",
+	    "menu-file": "~/.config/waybar/power_menu.xml",
+	    "menu-actions": {
+            "shutdown": "shutdown now",
+            "reboot": "reboot",
+            "suspend": "systemctl suspend",
+            "logout": "hyprctl dispatch exit",
+	    },
+    }
+}

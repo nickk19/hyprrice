@@ -1,0 +1,21 @@
+font=JetBrainsMonoNerdFont 14px
+background-color=#000000
+text-color=#dddddd
+
+border-size=1
+border-color=#dddddd
+border-radius=3
+
+#padding=5 8
+margin=2
+
+default-timeout=5000
+
+[urgency=high]
+text-color=#dc143c
+border-color=#dc143c
+
+[urgency=low]
+text-color=#888888
+border-color=#888888
+
