@@ -5,12 +5,12 @@
 
     "modules-left": [
         "hyprland/workspaces",
+        "mpris",
     ],
     "modules-center": [
         "hyprland/window",
     ],
     "modules-right": [
-        "mpris",
         "hyprland/language",
         "wireplumber",
 		"battery",
