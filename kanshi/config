@@ -1,14 +1,10 @@
 output "Fujitsu Siemens Computers GmbH B24W-7 LED YVBX183414" {
     mode 1920x1200@59.950
-    position 1200,0
-    scale 1
     alias $EXTERNAL
 }
 
 output "Samsung Display Corp. 0x4187 Unknown" {
     mode 1920x1200@60
-    position 0,0
-    scale 1
     alias $INTERNAL
 }
 
