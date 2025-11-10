@@ -27,5 +27,6 @@ I use **`polkit-gnome`** as the authentication agent and **`xdg-desktop-portal-g
 
 The fonts I use:
 - **`Noto Fonts`**
+- **`Noto Fonts CJK`**
 - **`Jebrains Mono Nerd Font`**
 - [**`Apple Color Emojis`**](https://github.com/samuelngs/apple-emoji-linux)
