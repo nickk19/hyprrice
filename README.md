@@ -3,7 +3,7 @@
 # Hyprrice
 
 Hi, if you are reading this Markdown file it means you are at least interested in my rice.
-For this rice I wanted to make something minimal, yet comfy and practical.
+I wanted to make something minimal, yet comfy and practical.
 
 Here are the programs I use:
 - **`Hyprland`** (as the window manager)
@@ -23,11 +23,9 @@ Here are the programs I use:
 
 To manage Wi-Fi and Bluetooth connections, **`nm-applet`** and **`blueman-applet`** are used.
 
-I use **`## polkit-gnome`** as the authentication agent and **`xdg-desktop-portal-gnome`** as the desktop portal. 
+I use **`polkit-gnome`** as the authentication agent and **`xdg-desktop-portal-gnome`** as the desktop portal. 
 
 The fonts I use:
 - **`Noto Fonts`**
 - **`Jebrains Mono Nerd Font`**
 - [**`Apple Color Emojis`**](https://github.com/samuelngs/apple-emoji-linux)
-
-
