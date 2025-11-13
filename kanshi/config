@@ -1,18 +1,8 @@
-output "Fujitsu Siemens Computers GmbH B24W-7 LED YVBX183414" {
-    mode 1920x1200@59.950
-    alias $EXTERNAL
-}
-
-output "Samsung Display Corp. 0x4187 Unknown" {
-    mode 1920x1200@60
-    alias $INTERNAL
+profile laptop {
+    output eDP-1 enable
 }
 
 profile dock {
-    output $INTERNAL disable
-    output $EXTERNAL enable
-}
-
-profile laptop {
-    output $INTERNAL enable
+    output eDP-1 disable
+    output DP-4 enable
 }
