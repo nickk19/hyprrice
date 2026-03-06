@@ -1,8 +1,0 @@
-profile laptop {
-    output eDP-1 enable
-}
-
-profile dock {
-    output eDP-1 disable
-    output DP-4 enable
-}

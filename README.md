@@ -15,7 +15,6 @@ Here are the programs I use:
 - **`Hyprpaper`** (to set the wallpaper)
 - **`Hyprlock`** (as the lock screen)
 - **`Hyprshot`** (to take screenshots)
-- **`Kanshi`** (to manage the displays) **NOTE**: The configuration file is based on the displays I use. You will have to edit it accordingly. 
 - **`Wob`** (as the overlay)
 - **`Cliphist`** (as the clipboard manager)
 - **`Nautilus`** (as the file manager)
